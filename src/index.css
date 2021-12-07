@@ -1,0 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header * {
+  padding: 8px;
+  margin: 5px;
+}
+
+.title {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.successBtn {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.searchBar{
+  float: right;
+  margin: 0 10px;
+}
+
+.tableData {
+  width:100%;
+  /* border: 2px solid black; */
+}
+
+.tableData > th, td {
+  text-align: center;
+  /* border: 2px solid black;
+  margin: 0; */
+}
+
+.Btn{
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.editBtn {
+  background-color: green;
+}
+
+.deleteBtn {
+  background-color: red;
+}
